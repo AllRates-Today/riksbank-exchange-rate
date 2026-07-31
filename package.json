@@ -1,0 +1,53 @@
+{
+  "name": "riksbank-exchange-rate",
+  "version": "1.0.0",
+  "description": "Official Sveriges Riksbank (Sweden) daily exchange rates — ~33 currencies vs SEK, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "riksbank",
+    "sveriges",
+    "riksbank",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "sek",
+    "central-bank",
+    "official-rates",
+    "sweden",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/riksbank/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exchange-RateAPI/riksbank-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Exchange-RateAPI/riksbank-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
