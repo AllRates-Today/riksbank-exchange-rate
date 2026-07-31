@@ -21,10 +21,10 @@
   "homepage": "https://allratestoday.com/central-bank-rates-api/riksbank/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Exchange-RateAPI/riksbank-exchange-rate.git"
+    "url": "git+https://github.com/AllRates-Today/riksbank-exchange-rate.git"
   },
   "bugs": {
-    "url": "https://github.com/Exchange-RateAPI/riksbank-exchange-rate/issues"
+    "url": "https://github.com/AllRates-Today/riksbank-exchange-rate/issues"
   },
   "license": "MIT",
   "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
