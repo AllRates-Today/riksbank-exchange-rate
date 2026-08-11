@@ -1,7 +1,7 @@
 {
   "name": "riksbank-exchange-rate",
-  "version": "1.0.1",
-  "description": "Official Sveriges Riksbank (Sweden) daily exchange rates — ~33 currencies vs SEK, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Sveriges Riksbank (Sweden) daily exchange rates — 29 currencies vs SEK, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "riksbank",
     "sveriges",
