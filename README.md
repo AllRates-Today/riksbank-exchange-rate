@@ -70,10 +70,10 @@ const pair = await getRate('EUR', 'SEK', { apiKey: 'art_live_...' });
 {
   bank: 'riksbank',
   name: 'Sveriges Riksbank',
-  rate_date: '2026-08-11',   // Sveriges Riksbank's own publication date
+  rate_date: '2026-09-09',   // Sveriges Riksbank's own publication date
   source: 'EUR',
   target: 'SEK',
-  rate: 10.9635,
+  rate: 11.1495,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -98,9 +98,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'riksbank',
   name: 'Sveriges Riksbank',
-  rate_date: '2026-08-11',
+  rate_date: '2026-09-09',
   rates: [
-    { "base": "EUR", "quote": "SEK", "type": "middle", "value": 10.9635 },
+    { "base": "EUR", "quote": "SEK", "type": "middle", "value": 11.1495 },
     // … the rest of the published table (29 currencies vs SEK)
   ],
   disclaimer: '…'
@@ -140,7 +140,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'riksbank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'SEK', from: '2026-01-01', to: '2026-08-11' },
+  { source: 'EUR', target: 'SEK', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -153,11 +153,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'SEK',
   from: '2026-01-01',
-  to: '2026-08-11',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-08-11', rate: 10.9635, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 11.1495, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -170,9 +170,9 @@ Pass `{ symbol: 'EUR' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-Sveriges Riksbank currently publishes rates covering **30 currencies** (as of the latest table):
+Sveriges Riksbank currently publishes rates covering **29 currencies** against the SEK (as of the latest table):
 
-`AUD` · `BRL` · `CAD` · `CHF` · `CNY` · `CZK` · `DKK` · `EUR` · `GBP` · `HKD` · `HUF` · `IDR` · `ILS` · `INR` · `ISK` · `JPY` · `KRW` · `MXN` · `MYR` · `NOK` · `NZD` · `PHP` · `PLN` · `RON` · `SEK` · `SGD` · `THB` · `TRY` · `USD` · `ZAR`
+🇦🇺 `AUD` · 🇧🇷 `BRL` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇭🇰 `HKD` · 🇭🇺 `HUF` · 🇮🇩 `IDR` · 🇮🇱 `ILS` · 🇮🇳 `INR` · 🇮🇸 `ISK` · 🇯🇵 `JPY` · 🇰🇷 `KRW` · 🇲🇽 `MXN` · 🇲🇾 `MYR` · 🇳🇴 `NOK` · 🇳🇿 `NZD` · 🇵🇭 `PHP` · 🇵🇱 `PLN` · 🇷🇴 `RON` · 🇸🇬 `SGD` · 🇹🇭 `THB` · 🇹🇷 `TRY` · 🇺🇸 `USD` · 🇿🇦 `ZAR`
 
 ## ⚖️ Published vs derived rates
 
@@ -235,6 +235,14 @@ getRate('EUR', 'SEK', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2016 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/riksbank.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/riksbank/latest.json`
 
 ## 🔗 Links
 
