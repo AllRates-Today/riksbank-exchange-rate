@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/riksbank-exchange-rate.svg)](https://github.com/AllRates-Today/riksbank-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/riksbank-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/SEK today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Friksbank%3Fsource%3DEUR%26target%3DSEK&query=%24.rate&label=EUR%2FSEK%20published%20by%20Sveriges%20Riksbank&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/riksbank/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Friksbank%3Fsource%3DEUR%26target%3DSEK&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/riksbank/)
 
 **Official Sveriges Riksbank (Sweden) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Sveriges Riksbank itself prints, every business day.**
 
@@ -32,6 +34,48 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Sveriges Riksbank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Sveriges Riksbank — 29 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | SEK | middle | 6.94848 |
+| BRL | SEK | middle | 1.99473 |
+| CAD | SEK | middle | 7.01686 |
+| CHF | SEK | middle | 12.003 |
+| CNY | SEK | middle | 1.49309 |
+| CZK | SEK | middle | 0.45871 |
+| DKK | SEK | middle | 1.49775 |
+| EUR | SEK | middle | 11.194 |
+| GBP | SEK | middle | 13.21637 |
+| HKD | SEK | middle | 1.27519 |
+| HUF | SEK | middle | 0.03056 |
+| IDR | SEK | middle | 0.00056 |
+| ILS | SEK | middle | 3.2519 |
+| INR | SEK | middle | 0.1034 |
+| ISK | SEK | middle | 0.08171 |
+| JPY | SEK | middle | 0.06323 |
+| KRW | SEK | middle | 0.00745 |
+| MXN | SEK | middle | 0.55557 |
+| MYR | SEK | middle | 2.44581 |
+| NOK | SEK | middle | 1.04451 |
+| NZD | SEK | middle | 5.59308 |
+| PHP | SEK | middle | 0.15884 |
+| PLN | SEK | middle | 2.55845 |
+| RON | SEK | middle | 2.09492 |
+| SGD | SEK | middle | 7.80614 |
+| THB | SEK | middle | 0.29708 |
+| TRY | SEK | middle | 0.20333 |
+| USD | SEK | middle | 10.00715 |
+| ZAR | SEK | middle | 0.60101 |
+
+Source: [Official rates published by RIKSBANK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/riksbank/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
