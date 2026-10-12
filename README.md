@@ -40,39 +40,39 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Sveriges Riksbank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Sveriges Riksbank — 29 rates. Updated 2026-10-09.
+Published **2026-10-12** by Sveriges Riksbank — 29 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | SEK | middle | 6.95708 |
-| BRL | SEK | middle | 1.99114 |
-| CAD | SEK | middle | 7.00508 |
-| CHF | SEK | middle | 11.9913 |
-| CNY | SEK | middle | 1.48916 |
-| CZK | SEK | middle | 0.45827 |
-| DKK | SEK | middle | 1.49396 |
-| EUR | SEK | middle | 11.1675 |
-| GBP | SEK | middle | 13.17497 |
-| HKD | SEK | middle | 1.2699 |
-| HUF | SEK | middle | 0.03059 |
+| AUD | SEK | middle | 6.98384 |
+| BRL | SEK | middle | 2.00586 |
+| CAD | SEK | middle | 7.02151 |
+| CHF | SEK | middle | 12.02373 |
+| CNY | SEK | middle | 1.49622 |
+| CZK | SEK | middle | 0.45904 |
+| DKK | SEK | middle | 1.4979 |
+| EUR | SEK | middle | 11.1965 |
+| GBP | SEK | middle | 13.25375 |
+| HKD | SEK | middle | 1.27606 |
+| HUF | SEK | middle | 0.03066 |
 | IDR | SEK | middle | 0.00056 |
-| ILS | SEK | middle | 3.25963 |
-| INR | SEK | middle | 0.10302 |
-| ISK | SEK | middle | 0.08163 |
-| JPY | SEK | middle | 0.06297 |
-| KRW | SEK | middle | 0.00743 |
-| MXN | SEK | middle | 0.54756 |
-| MYR | SEK | middle | 2.43954 |
-| NOK | SEK | middle | 1.04218 |
-| NZD | SEK | middle | 5.59466 |
-| PHP | SEK | middle | 0.15864 |
-| PLN | SEK | middle | 2.54762 |
-| RON | SEK | middle | 2.09106 |
-| SGD | SEK | middle | 7.78331 |
-| THB | SEK | middle | 0.29721 |
-| TRY | SEK | middle | 0.20266 |
-| USD | SEK | middle | 9.96564 |
-| ZAR | SEK | middle | 0.60277 |
+| ILS | SEK | middle | 3.26238 |
+| INR | SEK | middle | 0.10456 |
+| ISK | SEK | middle | 0.08209 |
+| JPY | SEK | middle | 0.06314 |
+| KRW | SEK | middle | 0.00751 |
+| MXN | SEK | middle | 0.54596 |
+| MYR | SEK | middle | 2.45199 |
+| NOK | SEK | middle | 1.04684 |
+| NZD | SEK | middle | 5.60722 |
+| PHP | SEK | middle | 0.15956 |
+| PLN | SEK | middle | 2.55336 |
+| RON | SEK | middle | 2.0979 |
+| SGD | SEK | middle | 7.82206 |
+| THB | SEK | middle | 0.2979 |
+| TRY | SEK | middle | 0.20297 |
+| USD | SEK | middle | 10.01386 |
+| ZAR | SEK | middle | 0.6054 |
 
 Source: [Official rates published by RIKSBANK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/riksbank/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
