@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Sveriges Riksbank itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Sveriges Riksbank table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,48 +47,44 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Sveriges Riksbank — 29 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Sveriges Riksbank — 29 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | SEK | middle | 6.91063 |
-| BRL | SEK | middle | 1.96069 |
-| CAD | SEK | middle | 7.02874 |
-| CHF | SEK | middle | 11.99007 |
-| CNY | SEK | middle | 1.48071 |
-| CZK | SEK | middle | 0.45615 |
-| DKK | SEK | middle | 1.48554 |
-| EUR | SEK | middle | 11.104 |
-| GBP | SEK | middle | 13.18687 |
-| HKD | SEK | middle | 1.26043 |
-| HUF | SEK | middle | 0.03056 |
+| AUD | SEK | middle | 6.92763 |
+| BRL | SEK | middle | 1.9743 |
+| CAD | SEK | middle | 7.05864 |
+| CHF | SEK | middle | 12.04179 |
+| CNY | SEK | middle | 1.48517 |
+| CZK | SEK | middle | 0.45719 |
+| DKK | SEK | middle | 1.48811 |
+| EUR | SEK | middle | 11.123 |
+| GBP | SEK | middle | 13.23725 |
+| HKD | SEK | middle | 1.26365 |
+| HUF | SEK | middle | 0.0305 |
 | IDR | SEK | middle | 0.00055 |
-| ILS | SEK | middle | 3.18257 |
-| INR | SEK | middle | 0.10421 |
-| ISK | SEK | middle | 0.08141 |
-| JPY | SEK | middle | 0.06251 |
-| KRW | SEK | middle | 0.00744 |
-| MXN | SEK | middle | 0.53518 |
-| MYR | SEK | middle | 2.42308 |
-| NOK | SEK | middle | 1.05196 |
-| NZD | SEK | middle | 5.61035 |
-| PHP | SEK | middle | 0.15702 |
-| PLN | SEK | middle | 2.54021 |
-| RON | SEK | middle | 2.08471 |
-| SGD | SEK | middle | 7.73421 |
-| THB | SEK | middle | 0.29481 |
-| TRY | SEK | middle | 0.19963 |
-| USD | SEK | middle | 9.8922 |
-| ZAR | SEK | middle | 0.60194 |
+| ILS | SEK | middle | 3.1914 |
+| INR | SEK | middle | 0.10448 |
+| ISK | SEK | middle | 0.08167 |
+| JPY | SEK | middle | 0.06272 |
+| KRW | SEK | middle | 0.00747 |
+| MXN | SEK | middle | 0.53548 |
+| MYR | SEK | middle | 2.42924 |
+| NOK | SEK | middle | 1.05687 |
+| NZD | SEK | middle | 5.63247 |
+| PHP | SEK | middle | 0.1571 |
+| PLN | SEK | middle | 2.54135 |
+| RON | SEK | middle | 2.08655 |
+| SGD | SEK | middle | 7.75771 |
+| THB | SEK | middle | 0.29474 |
+| TRY | SEK | middle | 0.20005 |
+| USD | SEK | middle | 9.91797 |
+| ZAR | SEK | middle | 0.60199 |
 
 </details>
 
 Source: [Official rates published by RIKSBANK, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/riksbank/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
