@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/riksbank'
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,39 +47,39 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Sveriges Riksbank — 29 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Sveriges Riksbank — 29 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | SEK | middle | 6.92763 |
-| BRL | SEK | middle | 1.9743 |
-| CAD | SEK | middle | 7.05864 |
-| CHF | SEK | middle | 12.04179 |
-| CNY | SEK | middle | 1.48517 |
-| CZK | SEK | middle | 0.45719 |
-| DKK | SEK | middle | 1.48811 |
-| EUR | SEK | middle | 11.123 |
-| GBP | SEK | middle | 13.23725 |
-| HKD | SEK | middle | 1.26365 |
-| HUF | SEK | middle | 0.0305 |
+| AUD | SEK | middle | 6.94853 |
+| BRL | SEK | middle | 1.96653 |
+| CAD | SEK | middle | 7.03308 |
+| CHF | SEK | middle | 11.98952 |
+| CNY | SEK | middle | 1.47969 |
+| CZK | SEK | middle | 0.4574 |
+| DKK | SEK | middle | 1.48469 |
+| EUR | SEK | middle | 11.0975 |
+| GBP | SEK | middle | 13.23889 |
+| HKD | SEK | middle | 1.25886 |
+| HUF | SEK | middle | 0.0304 |
 | IDR | SEK | middle | 0.00055 |
-| ILS | SEK | middle | 3.1914 |
-| INR | SEK | middle | 0.10448 |
-| ISK | SEK | middle | 0.08167 |
-| JPY | SEK | middle | 0.06272 |
-| KRW | SEK | middle | 0.00747 |
-| MXN | SEK | middle | 0.53548 |
-| MYR | SEK | middle | 2.42924 |
-| NOK | SEK | middle | 1.05687 |
-| NZD | SEK | middle | 5.63247 |
-| PHP | SEK | middle | 0.1571 |
-| PLN | SEK | middle | 2.54135 |
-| RON | SEK | middle | 2.08655 |
-| SGD | SEK | middle | 7.75771 |
-| THB | SEK | middle | 0.29474 |
-| TRY | SEK | middle | 0.20005 |
-| USD | SEK | middle | 9.91797 |
-| ZAR | SEK | middle | 0.60199 |
+| ILS | SEK | middle | 3.19573 |
+| INR | SEK | middle | 0.10457 |
+| ISK | SEK | middle | 0.08148 |
+| JPY | SEK | middle | 0.06257 |
+| KRW | SEK | middle | 0.00745 |
+| MXN | SEK | middle | 0.53448 |
+| MYR | SEK | middle | 2.42076 |
+| NOK | SEK | middle | 1.0557 |
+| NZD | SEK | middle | 5.62326 |
+| PHP | SEK | middle | 0.15604 |
+| PLN | SEK | middle | 2.54326 |
+| RON | SEK | middle | 2.07955 |
+| SGD | SEK | middle | 7.73453 |
+| THB | SEK | middle | 0.29422 |
+| TRY | SEK | middle | 0.19915 |
+| USD | SEK | middle | 9.87849 |
+| ZAR | SEK | middle | 0.60335 |
 
 </details>
 
