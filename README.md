@@ -47,39 +47,39 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-26 by Sveriges Riksbank — 29 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-27 by Sveriges Riksbank — 29 rates. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | SEK | middle | 6.99347 |
-| BRL | SEK | middle | 1.7815 |
-| CAD | SEK | middle | 7.09685 |
-| CHF | SEK | middle | 12.05074 |
-| CNY | SEK | middle | 1.49304 |
-| CZK | SEK | middle | 0.45708 |
-| DKK | SEK | middle | 1.49016 |
-| EUR | SEK | middle | 11.1385 |
-| GBP | SEK | middle | 13.28859 |
-| HKD | SEK | middle | 1.26908 |
-| HUF | SEK | middle | 0.03031 |
+| AUD | SEK | middle | 6.98758 |
+| BRL | SEK | middle | 1.85823 |
+| CAD | SEK | middle | 7.08589 |
+| CHF | SEK | middle | 11.9921 |
+| CNY | SEK | middle | 1.49032 |
+| CZK | SEK | middle | 0.45505 |
+| DKK | SEK | middle | 1.48237 |
+| EUR | SEK | middle | 11.0795 |
+| GBP | SEK | middle | 13.2438 |
+| HKD | SEK | middle | 1.26672 |
+| HUF | SEK | middle | 0.03015 |
 | IDR | SEK | middle | 0.00055 |
-| ILS | SEK | middle | 3.23249 |
-| INR | SEK | middle | 0.10459 |
-| ISK | SEK | middle | 0.08166 |
-| JPY | SEK | middle | 0.06323 |
-| KRW | SEK | middle | 0.00751 |
-| MXN | SEK | middle | 0.53481 |
-| MYR | SEK | middle | 2.43566 |
-| NOK | SEK | middle | 1.06543 |
-| NZD | SEK | middle | 5.6555 |
-| PHP | SEK | middle | 0.1557 |
-| PLN | SEK | middle | 2.52929 |
-| RON | SEK | middle | 2.08301 |
-| SGD | SEK | middle | 7.77448 |
-| THB | SEK | middle | 0.29451 |
-| TRY | SEK | middle | 0.20006 |
-| USD | SEK | middle | 9.95576 |
-| ZAR | SEK | middle | 0.5987 |
+| ILS | SEK | middle | 3.25839 |
+| INR | SEK | middle | 0.10446 |
+| ISK | SEK | middle | 0.08123 |
+| JPY | SEK | middle | 0.06296 |
+| KRW | SEK | middle | 0.00748 |
+| MXN | SEK | middle | 0.53318 |
+| MYR | SEK | middle | 2.43014 |
+| NOK | SEK | middle | 1.06652 |
+| NZD | SEK | middle | 5.66668 |
+| PHP | SEK | middle | 0.15528 |
+| PLN | SEK | middle | 2.51692 |
+| RON | SEK | middle | 2.0714 |
+| SGD | SEK | middle | 7.75604 |
+| THB | SEK | middle | 0.29424 |
+| TRY | SEK | middle | 0.19958 |
+| USD | SEK | middle | 9.93677 |
+| ZAR | SEK | middle | 0.59685 |
 
 </details>
 
