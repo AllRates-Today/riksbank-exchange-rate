@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Sveriges Riksbank — 29 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by Sveriges Riksbank — 29 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -244,6 +244,7 @@ Sveriges Riksbank, founded in 1668, is the world's oldest central bank. It publi
 
 - Publisher's own page: [Interest and exchange rates search](https://www.riksbank.se/en-gb/statistics/interest-rates-and-exchange-rates/search-interest-rates-and-exchange-rates/) · [www.riksbank.se](https://www.riksbank.se)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Sveriges Riksbank rates page](https://allratestoday.com/central-bank-rates-api/riksbank/)
+- In the API: usually by **16:20 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
